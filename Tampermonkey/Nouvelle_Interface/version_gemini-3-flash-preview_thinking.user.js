@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Projet Voltaire Nouvelle Interface Assistant (Gemini 2.5 Flash)
+// @name         Projet Voltaire Nouvelle Interface Assistant (Gemini 3.0 Flash)
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1 Experimental // Prise en charge de la nouvelle interface du site
+// @version      1.0 Experimental // Prise en charge de la nouvelle interface du site
 // @description  Assiste aux exercices de type phrase unique sur Projet Voltaire avec Gemini.
 // @author       mkyousuke & Gemini Pro
 // @match        https://compte.groupe-voltaire.fr/*
@@ -16,7 +16,7 @@
     'use strict';
 
     const GEMINI_API_KEY = 'VOTRE_CLE_API_GEMINI_ICI';
-    const GEMINI_MODEL_NAME = 'gemini-2.5-flash-preview-04-17';
+    const GEMINI_MODEL_NAME = 'gemini-3-flash-preview';
     const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL_NAME}:generateContent?key=${GEMINI_API_KEY}`;
     const MAX_MEMOIRES_CORRECTIONS = 5;
 

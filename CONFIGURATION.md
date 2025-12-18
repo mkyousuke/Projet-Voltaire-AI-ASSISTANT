@@ -61,7 +61,7 @@ Cette méthode nécessite l'installation préalable d'un gestionnaire de scripts
     * Si ce n'est pas déjà fait, installez [Tampermonkey](https://www.tampermonkey.net/) (recommandé) ou une extension similaire pour votre navigateur.
 2.  **Installez le script utilisateur :**
     * Naviguez vers le dossier `Tampermonkey/` de ce dépôt.
-    * Choisissez le fichier `.user.js` que vous souhaitez utiliser (par exemple, `version_gemini-2.5-flash-preview-04-17_thinking.user.js`).
+    * Choisissez le fichier `.user.js` que vous souhaitez utiliser (par exemple, `version_gemini-2.5-flash-preview-04-17.user.js`).
     * Cliquez sur le nom du fichier, puis sur le bouton "Raw" (ou "Brut").
     * Tampermonkey devrait détecter le script et vous proposer de l'installer. Cliquez sur "Installer".
 3.  **Configurez la clé API dans le script :**

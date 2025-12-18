@@ -1,19 +1,19 @@
 {
   "manifest_version": 3,
   "name": "Assistant Projet Voltaire",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Assiste aux exercices sur Projet Voltaire avec l'API Gemini.",
   "permissions": [
     "storage",
     "activeTab"
   ],
   "host_permissions": [
-    "https://www.projet-voltaire.fr/*",
+    "https://particuliers.projet-voltaire.fr/voltaire/com.woonoz.gwt.woonoz.Voltaire/Voltaire.html?articleId=53&applicationCode=pv&returnUrl=particuliers.projet-voltaire.fr/*",
     "https://generativelanguage.googleapis.com/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://www.projet-voltaire.fr/*"],
+      "matches": ["https://particuliers.projet-voltaire.fr/voltaire/com.woonoz.gwt.woonoz.Voltaire/Voltaire.html?articleId=53&applicationCode=pv&returnUrl=particuliers.projet-voltaire.fr/*"],
       "js": ["assistant_script.js"],
       "run_at": "document_idle"
     }

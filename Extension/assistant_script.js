@@ -2,7 +2,7 @@
     'use strict';
 
     let GEMINI_API_KEY_STORED = '';
-    const GEMINI_MODEL_NAME = 'gemini-2.5-flash-preview-04-17';
+    const GEMINI_MODEL_NAME = 'gemini-3-flash-preview';
     const MAX_MEMOIRES_CORRECTIONS = 10;
 
     let memoireDesCorrections = [];

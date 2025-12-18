@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Projet Voltaire Assistant (Gemini 2.5 Flash)
+// @name         Projet Voltaire Assistant (Gemini 3 Flash)
 // @namespace    http://tampermonkey.net/
-// @version      0.9.4 // Bouton "Voir les règles" fonctionnant comme un interrupteur
-// @description  Assiste à plusieurs types d'exercices sur Projet Voltaire avec Gemini 2.5 Flash, en apprenant des corrections et des règles confirmées.
+// @version      1.0 // Ajout de la version 3 de Gemini Flash
+// @description  Assiste à plusieurs types d'exercices sur Projet Voltaire avec Gemini 3 Flash.
 // @author       mkyousuke & Gemini Pro
 // @match        https://www.projet-voltaire.fr/*
 // @grant        GM_xmlhttpRequest
@@ -15,7 +15,7 @@
     'use strict';
 
     const GEMINI_API_KEY = 'VOTRE_CLE_API_GEMINI_ICI';
-    const GEMINI_MODEL_NAME = 'gemini-2.5-flash-preview-04-17';
+    const GEMINI_MODEL_NAME = 'gemini-3-flash-preview';
     const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL_NAME}:generateContent?key=${GEMINI_API_KEY}`;
     const MAX_MEMOIRES_CORRECTIONS = 10;
 
